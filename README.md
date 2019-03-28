@@ -1,4 +1,4 @@
-The aim of this repo is to solve the openAI Taxi-v2 environment using Q-learning.
+The aim of this repo is to solve the **openAI Taxi-v2** environment using **Q-learning**.
 
 **Environment:**
 
