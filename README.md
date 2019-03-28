@@ -35,5 +35,5 @@ The agent can then perform 6 different actions at any point in time:
 **Algorithm:**
 
 <p align="center">
-  <img width="116" height="264" src="https://cdn-images-1.medium.com/max/1600/1*FJJ9bOOt1cUXkEH6Y0r63g.gif">
+  <img width="116" height="264" src="docs/random_play.gif">
 </p>
