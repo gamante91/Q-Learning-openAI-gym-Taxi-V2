@@ -4,4 +4,4 @@ There are 4 locations (labeled by different letters) and the agent's job is to p
 The agent receives +20 points for a successful dropoff, and loses 1 point for every timestep it takes.
 There is also a 10 point penalty for illegal pick-up and drop-off actions.
 
-<img src="https://cdn-images-1.medium.com/max/1600/1*FJJ9bOOt1cUXkEH6Y0r63g.gif" width="100" height="100" />
+![](https://cdn-images-1.medium.com/max/1600/1*FJJ9bOOt1cUXkEH6Y0r63g.gif | width=100)
