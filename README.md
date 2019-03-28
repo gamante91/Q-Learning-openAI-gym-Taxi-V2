@@ -17,8 +17,10 @@ There is also a 10 point penalty for illegal pick-up and drop-off actions.
 
 **State space and action space**:
 
-The whole
-The state is finite and has 25x5x4 = 300 
+The state space is finite and has 25x5x4 = 300 possible values:
+- 25 is the number of possible taxi positions in a 5x5 grid
+- 5 is the number of possible passenger positions (R, G, B, Y and inside the taxi)
+- 4 is the number of possible target positions (where the passenger wants to go)
 
 The agent can then perform 6 different actions at any point in time:
 1-move south
