@@ -17,7 +17,7 @@ There is also a 10 point penalty for illegal pick-up and drop-off actions.
 
 **State space and action space**:
 
-The whp;e
+The whole
 The state is finite and has 25x5x4 = 300 
 
 The agent can then perform 6 different actions at any point in time:
