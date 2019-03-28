@@ -1,5 +1,4 @@
-The aim of this repo is to solve the **openAI Taxi-v2** environment using **Q-learning**.
-
+The aim of this repo is to solve **openAI Taxi-v2** environment using **Q-learning**.
 
 **Environment:**
 
@@ -15,9 +14,6 @@ There are 4 locations (labeled by different letters) and the agent's job is to p
 +---------+ 
 ```
 
-The agent receives +20 points for a successful dropoff, and loses 1 point for every timestep it takes.
-There is also a 10 point penalty for illegal pick-up and drop-off actions.
-
 **State space and action space**:
 
 The state space is finite and has 25x5x4 = 300 possible values:
@@ -25,13 +21,19 @@ The state space is finite and has 25x5x4 = 300 possible values:
 - 5 is the number of possible passenger positions (R, G, B, Y and inside the taxi)
 - 4 is the number of possible target positions (where the passenger wants to go)
 
-The agent can then perform 6 different actions at any point in time:
+The agent can perform 6 different actions:
 - move south
 - move north
 - move west
 - move east
 - pickup the passenger
 - dropoff the passenger
+
+**Reward signal**
+
+The agent receives +20 points for a successful dropoff, and loses 1 point for every timestep it takes.
+There is also a 10 point penalty for illegal pick-up and drop-off actions.
+An optimal algorithm will then
 
 **Algorithm:**
 
