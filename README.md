@@ -25,12 +25,12 @@ The state space is finite and has 25x5x4 = 300 possible values:
 - 4 is the number of possible target positions (where the passenger wants to go)
 
 The agent can then perform 6 different actions at any point in time:
--move south
--move north
--move west
--move east
--pickup the passenger
--dropoff the passenger
+- move south
+- move north
+- move west
+- move east
+- pickup the passenger
+- dropoff the passenger
 
 **Algorithm:**
 
