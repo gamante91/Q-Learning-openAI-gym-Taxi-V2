@@ -21,7 +21,7 @@ The state space is finite and has 25x5x4 = 300 possible values:
 - 5 is the number of possible passenger positions (R, G, B, Y and inside the taxi)
 - 4 is the number of possible target positions (where the passenger wants to go)
 
-The agent can perform 6 different actions:
+The action space is finite and has 6 possible values, as the agent can perform 6 different actions:
 - move south
 - move north
 - move west
