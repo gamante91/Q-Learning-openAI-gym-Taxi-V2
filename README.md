@@ -1,5 +1,6 @@
 The aim of this repo is to solve the **openAI Taxi-v2** environment using **Q-learning**.
 
+
 **Environment:**
 
 There are 4 locations (labeled by different letters) and the agent's job is to pick up the passenger at one location and drop him off in another.
