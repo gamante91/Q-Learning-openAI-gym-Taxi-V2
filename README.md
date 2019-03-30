@@ -37,9 +37,11 @@ An optimal algorithm will then [...]
 
 **Algorithm:**
 
-The algorithm used to train the agent is the popular **Q-learning** (also known as SARSA-max), which makes used of a lookup table of size n_states x n_actions, called the Q-table.\n
-Each Q-table entry Q[s][a] contains a so called Q-value, which represents the expected cumulated reward if the agent takes action a from state s.\n
-These entries are learned by the agent while exploring the environment using the followig update formula:\n
+The algorithm used to train the agent is the popular **Q-learning** (also known as SARSA-max), which makes used of a lookup table of size n_states x n_actions, called the Q-table.
+
+Each Q-table entry Q[s][a] contains a so called Q-value, which represents the expected cumulated reward if the agent takes action a from state s.
+
+These entries are learned by the agent while exploring the environment using the followig update formula:
 
 <p align="center">
   <img src="docs/Q_table_update_rule.png">
