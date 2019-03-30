@@ -33,9 +33,17 @@ The action space is finite and has 6 possible values, as the agent can perform 6
 
 The agent receives +20 points for a successful dropoff, and loses 1 point for every timestep it takes.
 There is also a 10 point penalty for illegal pick-up and drop-off actions.
-An optimal algorithm will then
+An optimal algorithm will then [...]
 
 **Algorithm:**
+
+The algorithm used to train the agent is the popular **Q-learning** (also known as SARSA-max), which makes used of a lookup table of size n_states x n_actions, called the Q-table.
+Each Q-table entry Q[s][a] contains a so called Q-value, which represents the expected cumulated reward if the agent takes action a from state s.
+These entries are learned by the agent while exploring the environment using the followig update formula
+
+<p align="center">
+  <img src="docs/Q_table_update_rule.png">
+</p>
 
 <p align="center">
   <img width="116" height="264" src="docs/random_play.gif">
